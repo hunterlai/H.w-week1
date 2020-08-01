@@ -30,7 +30,47 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function (){
+                $(document).on(
+                    "click",
+                    function (){
+                    $("#box").animate({
+                        top:(event.clientY+20) + "px",
+                        left:event.clientX + "px"
+                    },"fast")
+                    // $("#box").animate({left:event.clientX+"px"},"fast");
+                });
+                $("#boxclose").click(function(){
+                    $("#box").animate({top:"-200px"},"fast","linear"),
+                    event.cancelBubble = true;
+                });
+            });
+    </script>
+<style type="text/css">
+        .box {
+            position: fixed;
+            top: -200px;
+            left: 30%;
+            width: 125px;
+            padding: 0;
+            border:0;
+            z-index: 101;
+            /* transition: all 1s ease-out; */
+        }
+        
+        
+        a.boxclose {
+            float: right;
+            width: 26px;
+            height: 26px;
+            background: transparent url(uploads/cancel.png) no-repeat;
+            margin-top: -20px;
+            margin-right: -30px;
+            cursor: pointer;
+        }
+</style>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -38,6 +78,11 @@
 
 </head>
 <body class="barber_version">
+    <div class="box" id="box">
+		<a class="boxclose" id="boxclose"></a>
+		<a href="https://asms.coa.gov.tw/Amlapp/App/Default.aspx"><img src="uploads/rebox.png" ></a>
+	</div>
+
 
     <!-- LOADER -->
     <div id="preloader">

@@ -51,7 +51,7 @@
 body {
     color: #999;
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
     line-height: 1.80857;
 }
 
@@ -1101,7 +1101,7 @@ body.barber_version .about-tab .nav-tabs > li a:hover{
 
 .icon-wrapper p small:after {
     content: "\f105";
-    font-family: FontAwesome;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
     margin-left: 5px;
     font-size: 11px;
 }

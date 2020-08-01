@@ -380,7 +380,7 @@ body.barber_version .dev-list .widget-title {
 -------------------------------------------------------------------*/
 
 body.building_version {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
 }
 
 body.building_version .message-box h4,
