@@ -13,6 +13,8 @@
 
 以下圖片及部分文字資料來源:
 ---------------------------------------------------------------
+套用範例:https://www.free-css.com/free-css-templates/page243/smbarber
+
 logo出處:https://www.photophoto.cn/pic/30398578.html 
 
 貓狗圖片(維基百科):https://en.wikipedia.org/wiki/Street_dog#/media/File:Stray_dogs_crosswalk.jpg
