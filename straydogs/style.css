@@ -2288,7 +2288,7 @@ select.mobile-device {
 -------------------------------------------------------------------*/
 
 .all-page-bar{
-	background: url("uploads/barber_all.jpg") no-repeat center;
+	background: url("uploads/all.jpg") no-repeat center;
 	background-size: cover;
 	position: relative;
 }
